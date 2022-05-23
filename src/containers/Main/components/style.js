@@ -17,7 +17,7 @@ export const CardPanelContentStyled = styled(CardContent)`
     padding: 25px;
 `
 export const CardContentStyled = styled(CardContent)`
-    border-left: 8px solid ${({ color }) => color || '#5d78ff'}
+    border-left: 20px solid ${({ color }) => color || '#5d78ff'}
 `
 
 export const ItemStyled = styled.div`
