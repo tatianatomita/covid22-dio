@@ -4,10 +4,12 @@ import { ContainerStyled } from './style'
 import Board from './components/Board'
 import Panel from './components/Panel'
 
+
 function Main() {
     const [data, setData] = useState({})
     const [country, setCountry] = useState('china')
     const updateAt = new Date().toLocaleDateString()
+    //const ref = React.createRef();
 
     const getCovidData = useCallback((country)=> {
         Api.getCountry(country)
@@ -27,18 +29,20 @@ function Main() {
     return (
         <ContainerStyled>
             <div className="mb-2">
-                <Panel
+                <Panel 
                     data={data}
                     updateAt={updateAt}
                     onChange={handleChange}
                     country={country}
                     getCovidData={getCovidData}
+                    
 
                 />
+                
                 
             </div>
             <Board data={data} />
         </ContainerStyled>
     )
 }
-export default memo (Main)
+export default memo(Main)

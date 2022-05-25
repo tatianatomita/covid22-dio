@@ -1,11 +1,12 @@
 import { createGlobalStyle } from 'styled-components';
-import CovidImg from '../../assets/images/covid.png'
+import CovidImg from '../../assets/images/virus_fundo.png'
 
 const globalStyle = createGlobalStyle`
     * {
         outline:none;
         box-sizing: border-box;
     }
+    
 
     body {
         line-height: normal;
