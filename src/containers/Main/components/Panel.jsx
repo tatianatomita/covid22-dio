@@ -29,7 +29,7 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }){
         navigator.share({
             title: `Dados do Covid19 - ${country}`,
             text: textCovid19,
-            url: 'https://github.com/tatianatomita/covid22-dio' //'https://covid19dio-hoje.netlify.app/'
+            url: 'https://covid19dio-hoje.netlify.app/'
         })
     }
 
