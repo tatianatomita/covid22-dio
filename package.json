@@ -1,6 +1,7 @@
 {
   "name": "covid22-dio",
   "version": "0.1.0",
+  "homepage": "https://covid19dio-hoje.netlify.app/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
